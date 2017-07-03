@@ -10,8 +10,6 @@ animate();
 function init() {
 
     var stats = new Stats();
-    var xPanel = stats.addPanel( new Stats.Panel( 'x', '#ff8', '#221' ) );
-    var yPanel = stats.addPanel( new Stats.Panel( 'y', '#f8f', '#212' ) );
     stats.showPanel( 0 );
     document.body.appendChild( stats.dom );
     container = document.createElement( 'div' );
